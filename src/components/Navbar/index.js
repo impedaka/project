@@ -1,22 +1,30 @@
 import React from "react";
-import { Button, Row } from "../../home";
+import { Button } from "../../pages/Home/home";
 import Logo from "../../assets/logo.png";
-import { navLinks } from "./Navbar";
-import { Text } from "../../home";
-
+import { Links, NavContainer } from "./navbar.js";
+import { Link } from "react-router-dom";
+import { Row } from "../../pages/page";
 const Navbar = () => {
   return (
-    <div>
+    <NavContainer>
       <Row>
-        <img src={Logo} />
-        <dif />
-        <Text>Home</Text>
-        <Text>Stories</Text>
-        <Text>Discussion</Text>
+        <img src={Logo} alt="logo" />
         <div />
-        <Button>Take the test</Button>
+        <Link to="/">
+          <Links>Home</Links>
+        </Link>
+        <Link to="/stories">
+          <Links>Stories</Links>
+        </Link>
+        <Link to="/discussion">
+          <Links>Discussion</Links>
+        </Link>
+        <div />
+        <Link to="/test">
+          <Button>Take the test</Button>
+        </Link>{" "}
       </Row>
-    </div>
+    </NavContainer>
   );
 };
 
