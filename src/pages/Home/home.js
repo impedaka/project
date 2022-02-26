@@ -48,7 +48,6 @@ export const SmallText = styled.p`
 export const SmallHeader = styled.h2`
   font-size: 32px;
   font-weight: 700px;
-  width: 200px;
 `;
 export const BotHome = styled.div`
   background: url(${homeBot}) no-repeat;

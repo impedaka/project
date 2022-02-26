@@ -71,8 +71,8 @@ const Homepage = () => {
       </Wrapper>
       <BotHome>
         <Col>
-          <Header>Discussion Forum</Header>
-          <SubText style={{ textAlign: "center" }}>
+          <Header style={{ textAlign: "center" }}>Discussion Forum</Header>
+          <SubText>
             Lorem ipsum dolor sit amet, consectetur andi elit. Risus sapien, et
             vitae facilisi.
           </SubText>

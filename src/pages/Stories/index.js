@@ -54,15 +54,16 @@ const StoryPage = () => {
               </SmallText>
             </Col>
           </Row>
-          <SubText
+          <SmallHeader
             style={{
               display: "flex",
               justifyContent: "center",
-              marginBottom: "150px",
+              fontSize: "22px",
+              marginBottom: "100px",
             }}
           >
             Read More
-          </SubText>
+          </SmallHeader>
         </Col>
       </StoryBG>
     </>
