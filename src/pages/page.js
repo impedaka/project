@@ -24,7 +24,6 @@ export const Row = styled.div`
 export const Col = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 30px;
 `;
 export const SubText = styled.p`
