@@ -1,23 +1,23 @@
 import React from "react";
 
-import hero from "../../assets/home1.png";
-import { Button, Container } from "./home.js";
-import { Row, Col, Text, Header } from "../page";
+import { Button, Container, Wrapper } from "./home.js";
+import { Row, Col, Text, Header, SubText } from "../page";
 const Homepage = () => {
   return (
-    <Container>
-      <Row>
-        <Col>
-          <Header>Welcome to breast cancer care!</Header>
-          <Text>
-            We are focused on building awareness to prevent and diagnose breast
-            cancer
-          </Text>
-          <Button>Take the test </Button>
-        </Col>
-        <img src={hero} alt="hero" />
-      </Row>
-    </Container>
+    <>
+      <Container>
+        <Row>
+          <Col>
+            <Header>❤️face cancer with kindness</Header>
+            <SubText>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
+              sapien, et vitae facilisi.
+            </SubText>
+          </Col>
+        </Row>
+      </Container>
+      <Wrapper></Wrapper>
+    </>
   );
 };
 

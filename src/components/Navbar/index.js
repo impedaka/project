@@ -19,9 +19,8 @@ const Navbar = () => {
         <Link to="/discussion">
           <Links>Discussion</Links>
         </Link>
-        <div />
         <Link to="/test">
-          <Button>Take the test</Button>
+          <Links>Prognosis possibility for doctors</Links>
         </Link>{" "}
       </Row>
     </NavContainer>
