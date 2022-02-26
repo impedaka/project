@@ -11,6 +11,7 @@ import {
   Wrapper,
 } from "./home.js";
 import { Row, Col, Text, Header, SubText } from "../page";
+import { Link } from "react-router-dom";
 const Homepage = () => {
   return (
     <>
@@ -33,7 +34,9 @@ const Homepage = () => {
           <Row style={{ justifyContent: "space-around" }}>
             <img src={person1} />
             <Col>
-              <SmallHeader>Sarah Jones</SmallHeader>
+              <SmallHeader>
+                <Link to="/sarahstory">Sarah Jones</Link>
+              </SmallHeader>
               <SmallText>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
