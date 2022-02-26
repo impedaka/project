@@ -7,6 +7,7 @@ import TestPage from "./pages/Test";
 import Footer from "./components/Footer";
 import StoryPage from "./pages/Stories";
 import SarahStory from "./pages/SarahStory";
+import ResultPage from "./pages/Result";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/test" element={<TestPage />} />
           <Route path="/stories" element={<StoryPage />} />
           <Route path="/sarahstory" element={<SarahStory />} />
+          <Route path="/result" element={<ResultPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
