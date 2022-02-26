@@ -9,25 +9,13 @@ import {
   SmallHeader,
   SmallText,
   Wrapper,
-} from "./home.js";
+} from "../Home/home.js";
 import { Row, Col, Text, Header, SubText } from "../page";
-const Homepage = () => {
+import { StoryBG } from "./Stories";
+const StoryPage = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <Col>
-            <Header style={{ width: "400px" }}>
-              ❤️face cancer with kindness
-            </Header>
-            <SubText style={{ width: "400px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
-              sapien, et vitae facilisi.
-            </SubText>
-          </Col>
-        </Row>
-      </Container>
-      <Wrapper>
+      <StoryBG>
         <Header style={{ padding: "100px 0" }}>Inspiring Stories</Header>
         <Col>
           <Row style={{ justifyContent: "space-around" }}>
@@ -66,21 +54,19 @@ const Homepage = () => {
               </SmallText>
             </Col>
           </Row>
-          <Button style={{ marginBottom: "300px" }}>Read More</Button>
-        </Col>
-      </Wrapper>
-      <BotHome>
-        <Col>
-          <Header>Discussion Forum</Header>
-          <SubText style={{ textAlign: "center" }}>
-            Lorem ipsum dolor sit amet, consectetur andi elit. Risus sapien, et
-            vitae facilisi.
+          <SubText
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              marginBottom: "150px",
+            }}
+          >
+            Read More
           </SubText>
-          <Button>Go to Forum</Button>
         </Col>
-      </BotHome>
+      </StoryBG>
     </>
   );
 };
 
-export default Homepage;
+export default StoryPage;

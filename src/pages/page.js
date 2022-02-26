@@ -26,7 +26,6 @@ export const Col = styled.div`
   gap: 30px;
 `;
 export const SubText = styled.p`
-  width: 450px;
   weight: 400px;
   font-size: 22px;
   color: #7a7a7a;

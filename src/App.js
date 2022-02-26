@@ -5,6 +5,7 @@ import Homepage from "./pages/Home";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import TestPage from "./pages/Test";
 import Footer from "./components/Footer";
+import StoryPage from "./pages/Stories";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Homepage />} />
 
           <Route path="/test" element={<TestPage />} />
+          <Route path="/stories" element={<StoryPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
