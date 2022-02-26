@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../../pages/Home/home";
 import Logo from "../../assets/logo.png";
-import { Links, NavContainer } from "./navbar.js";
+import { Links, NavContainer } from "./Navbar.js";
 import { Link } from "react-router-dom";
 import { Row } from "../../pages/page";
 const Navbar = () => {

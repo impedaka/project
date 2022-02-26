@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     p
      {
       margin: 0;
+      opacity: 0.8;
     }
     ul[role='list'],
     ol[role='list'] {

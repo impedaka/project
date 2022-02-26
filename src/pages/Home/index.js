@@ -1,9 +1,15 @@
 import React from "react";
-
 import person1 from "../../assets/person.png";
 import person2 from "../../assets/person3.png";
 import person3 from "../../assets/person2.png";
-import { Button, Container, SmallHeader, SmallText, Wrapper } from "./home.js";
+import {
+  BotHome,
+  Button,
+  Container,
+  SmallHeader,
+  SmallText,
+  Wrapper,
+} from "./home.js";
 import { Row, Col, Text, Header, SubText } from "../page";
 const Homepage = () => {
   return (
@@ -11,7 +17,9 @@ const Homepage = () => {
       <Container>
         <Row>
           <Col>
-            <Header>❤️face cancer with kindness</Header>
+            <Header style={{ width: "400px" }}>
+              ❤️face cancer with kindness
+            </Header>
             <SubText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus
               sapien, et vitae facilisi.
@@ -20,7 +28,7 @@ const Homepage = () => {
         </Row>
       </Container>
       <Wrapper>
-        <Header>Inspiring Stories</Header>
+        <Header style={{ padding: "100px 0" }}>Inspiring Stories</Header>
         <Col>
           <Row style={{ justifyContent: "space-around" }}>
             <img src={person1} />
@@ -58,9 +66,19 @@ const Homepage = () => {
               </SmallText>
             </Col>
           </Row>
-          <Button>Read More > </Button>
+          <Button style={{ marginBottom: "300px" }}>Read More</Button>
         </Col>
       </Wrapper>
+      <BotHome>
+        <Col>
+          <Header>Discussion Forum</Header>
+          <SubText style={{ textAlign: "center" }}>
+            Lorem ipsum dolor sit amet, consectetur andi elit. Risus sapien, et
+            vitae facilisi.
+          </SubText>
+          <Button>Go to Forum</Button>
+        </Col>
+      </BotHome>
     </>
   );
 };
