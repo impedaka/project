@@ -37,7 +37,7 @@ const Homepage = () => {
               <SmallHeader>
                 <Link to="/sarahstory">Sarah Jones</Link>
               </SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget
@@ -48,7 +48,7 @@ const Homepage = () => {
           <Row style={{ justifyContent: "space-around" }}>
             <Col>
               <SmallHeader>Sarah Jones</SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget
@@ -61,7 +61,7 @@ const Homepage = () => {
             <img src={person3} />
             <Col>
               <SmallHeader>Sarah Jones</SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget
@@ -75,7 +75,7 @@ const Homepage = () => {
       <BotHome>
         <Col>
           <Header style={{ textAlign: "center" }}>Discussion Forum</Header>
-          <SubText>
+          <SubText style={{ width: "600px", textAlign: "center" }}>
             Lorem ipsum dolor sit amet, consectetur andi elit. Risus sapien, et
             vitae facilisi.
           </SubText>

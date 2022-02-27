@@ -7,6 +7,8 @@ import Footer from "./components/Footer";
 import StoryPage from "./pages/Stories";
 import SarahStory from "./pages/SarahStory";
 import ResultPage from "./pages/Result";
+import DiscussPage from "./pages/Form";
+
 function App() {
   return (
     <>
@@ -19,6 +21,7 @@ function App() {
           <Route path="/stories" element={<StoryPage />} />
           <Route path="/sarahstory" element={<SarahStory />} />
           <Route path="/result" element={<ResultPage />} />
+          <Route path="/discussion" element={<DiscussPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>

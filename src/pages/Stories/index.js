@@ -25,7 +25,7 @@ const StoryPage = () => {
               <SmallHeader>
                 <Link to="/sarahstory">Sarah Jones</Link>
               </SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget
@@ -36,7 +36,7 @@ const StoryPage = () => {
           <Row style={{ justifyContent: "space-around" }}>
             <Col>
               <SmallHeader>Sarah Jones</SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget
@@ -49,7 +49,7 @@ const StoryPage = () => {
             <img src={person3} />
             <Col>
               <SmallHeader>Sarah Jones</SmallHeader>
-              <SmallText>
+              <SmallText style={{ width: "600px" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci
                 aenean pharetra nibh consectetur proin sed. Vel sed vel mi,
                 facilisis placerat at diam massa. Consequat sit enim eget

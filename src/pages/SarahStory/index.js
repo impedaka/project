@@ -8,7 +8,7 @@ import { Row, Col } from "../page";
 const SarahStory = () => {
   return (
     <>
-      <img src={SarahBanner} style={{ width: "100%" }} />
+      <img src={SarahBanner} style={{ width: "100%" }} alt="asdfas" />
       <img
         src={Sarah}
         style={{
@@ -16,6 +16,7 @@ const SarahStory = () => {
           marginBottom: "-150px",
           marginLeft: "100px",
         }}
+        alt="aksjdfkas"
       />
       <SarahBg>
         <SmallHeader style={{ display: "flex", justifyContent: "center" }}>
@@ -26,7 +27,7 @@ const SarahStory = () => {
             <SmallHeader style={{ paddingTop: "100px" }}>
               My Battle with Cancer
             </SmallHeader>
-            <SmallText>
+            <SmallText style={{ width: "600px" }}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis
               leo sit est sit. Suspendisse nunc, faucibus luctus ligula mi sem
               ornare enim. Ut amet, dictum faucibus lectus sed. Ipsum nulla sed
@@ -34,7 +35,7 @@ const SarahStory = () => {
               dui senectus sed. At suspendisse ultrices auctor commodo at nibh.
               Interdum vestibulum ultrices eu egestas pellentesque at donec.
             </SmallText>
-            <SmallText>
+            <SmallText style={{ width: "600px" }}>
               Venenatis lectus fusce. Id auctor nulla imperdiet enim arcu,
               nullam. Purus malesuada ornare fringilla ac nisl magnis ac amet
               sagittis. At purus fusce velit habitant orci nulla amet, euismod
@@ -45,7 +46,7 @@ const SarahStory = () => {
               aenean tincidunt odio faucibus sed congue mi facilisi. Sed odio ut
               id sed venenatis vulputate tempor.
             </SmallText>
-            <SmallText>
+            <SmallText style={{ width: "600px" }}>
               Diam malesuada ac aliquam mattis mauris ultricies. Nunc, sapien
               ipsum risus, pharetra, sapien sagittis aliquam quam. Posuere
               facilisi blandit sollicitudin gravida orci, suspendisse mollis
@@ -53,7 +54,7 @@ const SarahStory = () => {
               morbi morbi. Nisi, in massa quis fames lacus quis ut. Amet
               ultrices diam nunc molestie.
             </SmallText>
-            <SmallText>
+            <SmallText style={{ width: "600px" }}>
               Vestibulum massa ultrices ornare aliquet. Enim interdum massa
               augue purus. Posuere aenean tincidunt odio faucibus sed congue mi
               facilisi. Sed odio ut id sed venenatis
@@ -62,8 +63,12 @@ const SarahStory = () => {
           <img
             src={SarahFlower}
             style={{ height: "75%", marginTop: "200px" }}
+            alt="asdfas"
           />
         </Row>
+        <br />
+        <br />
+        <br />
       </SarahBg>
     </>
   );

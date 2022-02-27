@@ -43,7 +43,6 @@ export const Wrapper = styled.div`
 export const SmallText = styled.p`
   font-size: 18px;
   font-weight: 400;
-  width: 600px;
 `;
 export const SmallHeader = styled.h2`
   font-size: 32px;
