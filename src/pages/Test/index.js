@@ -47,7 +47,7 @@ function Test() {
       "https://cancerrrr.herokuapp.com/predict",
       formData
     );
-    console.log(result);
+    localStorage.setItem("result",result.data.prediction_text);
   };
 
   return (

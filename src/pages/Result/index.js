@@ -12,14 +12,7 @@ const ResultPage = () => {
           <Col>
             <SmallHeader>Details</SmallHeader>
             <Text style={{ width: "530px" }}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Consectetur non ut semper porttitor elementum risus facilisi
-              turpis diam. Turpis congue etiam mauris. Volutpat, a est porttitor
-              massa consequat. In tincidunt purus neque et iaculis amet. Sit eu
-              varius parturient bibendum hendrerit dictumst id quisque.
-              Ullamcorper tellus amet blandit arcu sit. Odio praesent massa
-              tortor consectetur varius ut amet, enim pellentesque. Ultricies
-              aliquet vehicula elementum, at enim potenti faucibus mi in.
+             {localStorage.getItem("result")}
             </Text>
           </Col>
           <img src={Result} />
