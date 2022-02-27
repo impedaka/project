@@ -8,6 +8,7 @@ import StoryPage from "./pages/Stories";
 import SarahStory from "./pages/SarahStory";
 import ResultPage from "./pages/Result";
 import DiscussPage from "./pages/Form";
+import Test from "./pages/Test";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/sarahstory" element={<SarahStory />} />
           <Route path="/result" element={<ResultPage />} />
           <Route path="/discussion" element={<DiscussPage />} />
+          <Route path="/test" element={<Test />} />
         </Routes>
         <Footer />
       </BrowserRouter>
